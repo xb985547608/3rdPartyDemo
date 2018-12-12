@@ -12,6 +12,7 @@ QtGuiApplication {
         ]
         versionAtLeast: project.minimumQtVersion
     }
+    Depends { name: "material" }
 
     Group {
         name: "QML"
